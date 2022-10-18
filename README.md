@@ -9,6 +9,13 @@ realizada pela Rocketseat.</p>
 ## Backend
 <p> Desenvolvido em NodeJS.</p>
 
+### Dependências
+- cors
+- express
+- knex
+- sqlite3
+- nodemon
+
 ### Features
 - [x] Iniciar Sesseion de ONG<br>
 - [x] Cadastro de ONG<br>
@@ -17,6 +24,8 @@ realizada pela Rocketseat.</p>
 - [x] Listar Incidentes expecificos da ONG<br>
 - [x] Deletar Incidente<br>
 
+## Frontend
+<p> Desenvolvido em React</p>
 
 ## Em construção... 
 
