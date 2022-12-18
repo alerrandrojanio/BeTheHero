@@ -28,10 +28,25 @@ form input {
     border: 1px solid #DCDCE6;
     border-radius: 8px;
     padding: 0 24px;
+    transition: border-color 0.2s;
 }
 
-form input:focus-visible {
-    outline: 2px solid #E02041;
+form textarea {
+    width: 100%;
+    min-height: 140px;
+    height: 60px;
+    color: #333;
+    border: 1px solid #DCDCE6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+    resize: vertical;
+    transition: border-color 0.2s;
+}
+
+form input:focus-visible, 
+form textarea:focus-visible {
+    outline: 1px solid #E02041;
 }
 
 .button {
@@ -53,5 +68,23 @@ form input:focus-visible {
 
 .button:hover {
     filter: brightness(90%);
+}
 
+.back-link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414D;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-link svg {
+    margin-right: 8px;
+}
+
+.back-link :hover {
+    opacity: 0.8;
 }
